@@ -1,2 +1,2 @@
-pvporcupine~=3.0.0
+pvporcupine~=3.0.2
 wyoming==1.2.0
