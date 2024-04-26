@@ -1,2 +1,2 @@
-file:./porcupine
+pcporcupine @ https://github.com/Al3XKOoL/porcupine@master
 wyoming==1.2.0
