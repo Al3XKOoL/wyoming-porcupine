@@ -1,2 +1,2 @@
-pvporcupine @ git+https://github.com/Al3XKOoL/porcupine@main
+git+git://github.com/Al3XKOoL/porcupine.git --break-system-packages
 wyoming==1.2.0
