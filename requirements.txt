@@ -1,2 +1,2 @@
-git+https://github.com/Al3XKOoL/porcupine.git
+pvporcupine @ git+https://github.com/Al3XKOoL/porcupine@main
 wyoming==1.2.0
