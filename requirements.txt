@@ -1,2 +1,2 @@
-pvporcupine @ ./porcupine
+pvporcupine @ -e ./porcupine
 wyoming==1.2.0
