@@ -1,2 +1,2 @@
-file:../porcupine
+file:./porcupine
 wyoming==1.2.0
