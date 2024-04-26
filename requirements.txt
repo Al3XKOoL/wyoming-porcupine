@@ -1,2 +1,1 @@
-pvporcupine @ git+https://github.com/Al3XKOoL/porcupine/tree/master/binding/python
 wyoming==1.2.0
