@@ -1,2 +1,2 @@
-pvporcupine @ https://github.com/Al3XKOoL/porcupine/releases/download/b3.0/porcupine.zip
+pvporcupine @ https://github.com/Al3XKOoL/porcupine.git
 wyoming==1.2.0
