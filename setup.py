@@ -22,7 +22,7 @@ setup(
     name="wyoming_porcupine",
     version="1.1.0",
     description="Wyoming Server for Porcupine 1",
-    url="http://github.com/rhasspy/wyoming-porcupine",
+    url="http://github.com/Al3XKOoL/wyoming-porcupine",
     author="Michael Hansen",
     author_email="mike@rhasspy.org",
     license="MIT",
