@@ -157,11 +157,12 @@ async def main() -> None:
         wake=[
             WakeProgram(
                 name="porcupine",
-                description="On-device wake word detection powered by deep learning ",
+                description="On-device wake word detection powered by deep learning",
                 attribution=Attribution(
                     name="Picovoice", url="https://github.com/Picovoice/porcupine"
                 ),
                 installed=True,
+                version=__version__,
                 models=[
                     WakeModel(
                         name=kw.name,
@@ -172,6 +173,7 @@ async def main() -> None:
                         ),
                         installed=True,
                         languages=[kw.language],
+                        version="1.2.0",
                     )
                     for kw in keywords.values()
                 ],
