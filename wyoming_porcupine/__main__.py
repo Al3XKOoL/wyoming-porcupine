@@ -169,6 +169,7 @@ async def main() -> None:
                     WakeModel(
                         name=kw.name,
                         description=f"{kw.name} ({kw.language})",
+                        phrase=kw.name,
                         attribution=Attribution(
                             name="Picovoice",
                             url="https://github.com/Picovoice/porcupine",
