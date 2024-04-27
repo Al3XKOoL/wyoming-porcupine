@@ -21,7 +21,7 @@ data_files = list(data_dir.rglob("*.pv")) + list(data_dir.rglob("*.ppn"))
 
 setup(
     name=module_name,
-    version="1.2.0",
+    version=version,
     description="Wyoming Server for Porcupine 3",
     url="http://github.com/Al3XKOoL/wyoming-porcupine",
     author="Michael Hansen",
