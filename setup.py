@@ -17,6 +17,11 @@ module_dir = this_dir / module_name
 data_dir = module_dir / "data"
 data_files = list(data_dir.rglob("*.pv")) + list(data_dir.rglob("*.ppn"))
 
+version_path = module_dir / "VERSION"
+data_files.append(version_path)
+version = version_path.read_text(encoding="utf-8").strip()
+
+
 # -----------------------------------------------------------------------------
 
 setup(
@@ -41,5 +46,8 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
     ],
-    keywords="rhasspy wyoming porcupine wake word",
+    keywords="wyoming porcupine3 wake word",
+    entry_points={
+        "console_scripts": ["wyoming-porcupine = wyoming_porcupine.__main__:run"]
+    },
 )
