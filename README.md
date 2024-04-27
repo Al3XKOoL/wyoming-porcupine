@@ -1,6 +1,12 @@
+# Maintained By Al3XKOoL
+Added support for RK3588 like processors
+Upgraded with last version of porcupine 3
+Upgraded with last version of wyoming
+
 # Wyoming Porcupine
 
 [Wyoming protocol](https://github.com/rhasspy/wyoming) server for the [porcupine](https://github.com/Picovoice/porcupine) wake word detection system.
+
 
 This is an experimental fork of [rhasspy/wyoming-porcupine1](https://github.com/rhasspy/wyoming-porcupine1) that uses
 the latest version (v3.0) of porcupine.
@@ -16,7 +22,7 @@ Drawbacks:
 
 ## Home Assistant Add-on
 
-[![Show add-on](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=9f80aae6_porcupine&repository_url=https%3A%2F%2Fgithub.com%2Fchatziko%2Fhassio-addons)
+[![Show add-on](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=7a540447-porcupine&repository_url=https%3A%2F%2Fgithub.com%2FAl3XKOoL%2Fhassio-addons)
 
-[Source](https://github.com/chatziko/hassio-addons/tree/main/porcupine)
+[Source](https://github.com/Al3XKOoL/hassio-addons/tree/main/porcupine)
 
