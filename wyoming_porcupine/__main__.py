@@ -18,6 +18,8 @@ from wyoming.info import Attribution, Describe, Info, WakeModel, WakeProgram
 from wyoming.server import AsyncEventHandler, AsyncServer
 from wyoming.wake import Detect, Detection, NotDetected
 
+from . import __version__
+
 _LOGGER = logging.getLogger()
 _DIR = Path(__file__).parent
 
